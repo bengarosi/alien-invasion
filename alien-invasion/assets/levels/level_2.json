@@ -1,0 +1,138 @@
+{
+	"layout": {
+		"scale": 64,
+		"size": [32, 17],
+		"start": [1, 10],
+		"goal": [31, 0, 1, 14]
+	},
+
+	"physics": {
+		"gravity": 0.7,
+		"terminal_velocity": 180
+	},
+
+	"music": "assets/sounds/background_music.ogg",
+
+	"background": {
+		"color": [0, 0, 0],
+		"image1": "assets/images/backgrounds/Sky.png",
+		"image2": "assets/images/backgrounds/Full Moon - background.png",
+		"parallax_speed1": 0.6,
+		"parallax_speed2": 0.3
+	},
+
+	"tiles": {
+		"main": [
+			[0, 14, "MoonGrass"],
+			[1, 14, "MoonGrass"],
+			[2, 14, "MoonGrass"],
+			[3, 14, "MoonGrass"],
+			[4, 14, "MoonGrass"],
+			[5, 14, "MoonGrass"],
+			[6, 14, "MoonGrass"],
+			[7, 14, "MoonGrass"],
+			[8, 14, "MoonGrass"],
+			[9, 14, "MoonGrass"],
+			[10, 14, "MoonGrass"],
+			[11, 14, "MoonGrass"],
+			[12, 14, "MoonGrass"],
+			[13, 14, "MoonGrass"],
+			[14, 14, "MoonGrass"],
+			[15, 14, "MoonGrass"],
+			[16, 14, "MoonGrass"],
+			[17, 14, "MoonGrass"],
+			[18, 14, "MoonGrass"],
+			[19, 14, "MoonGrass"],
+			[20, 14, "MoonGrass"],
+			[21, 14, "MoonGrass"],
+			[22, 14, "MoonGrass"],
+			[23, 14, "MoonGrass"],
+			[24, 14, "MoonGrass"],
+			[25, 14, "MoonGrass"],
+			[26, 14, "MoonGrass"],
+			[27, 14, "MoonGrass"],
+			[28, 14, "MoonGrass"],
+			[29, 14, "MoonGrass"],
+			[30, 14, "MoonGrass"],
+			[0, 15, "MoonDirt"],
+			[1, 15, "MoonDirt"],
+			[2, 15, "MoonDirt"],
+			[3, 15, "MoonDirt"],
+			[4, 15, "MoonDirt"],
+			[5, 15, "MoonDirt"],
+			[6, 15, "MoonDirt"],
+			[7, 15, "MoonDirt"],
+			[8, 15, "MoonDirt"],
+			[9, 15, "MoonDirt"],
+			[10, 15, "MoonDirt"],
+			[11, 15, "MoonDirt"],
+			[12, 15, "MoonDirt"],
+			[13, 15, "MoonDirt"],
+			[14, 15, "MoonDirt"],
+			[15, 15, "MoonDirt"],
+			[16, 15, "MoonDirt"],
+			[17, 15, "MoonDirt"],
+			[18, 15, "MoonDirt"],
+			[19, 15, "MoonDirt"],
+			[20, 15, "MoonDirt"],
+			[21, 15, "MoonDirt"],
+			[22, 15, "MoonDirt"],
+			[23, 15, "MoonDirt"],
+			[24, 15, "MoonDirt"],
+			[25, 15, "MoonDirt"],
+			[26, 15, "MoonDirt"],
+			[27, 15, "MoonDirt"],
+			[28, 15, "MoonDirt"],
+			[29, 15, "MoonDirt"],
+			[0, 16, "MoonDirt"],
+			[1, 16, "MoonDirt"],
+			[2, 16, "MoonDirt"],
+			[3, 16, "MoonDirt"],
+			[4, 16, "MoonDirt"],
+			[5, 16, "MoonDirt"],
+			[6, 16, "MoonDirt"],
+			[7, 16, "MoonDirt"],
+			[8, 16, "MoonDirt"],
+			[9, 16, "MoonDirt"],
+			[10, 16, "MoonDirt"],
+			[11, 16, "MoonDirt"],
+			[12, 16, "MoonDirt"],
+			[13, 16, "MoonDirt"],
+			[14, 16, "MoonDirt"],
+			[15, 16, "MoonDirt"],
+			[16, 16, "MoonDirt"],
+			[17, 16, "MoonDirt"],
+			[18, 16, "MoonDirt"],
+			[19, 16, "MoonDirt"],
+			[20, 16, "MoonDirt"],
+			[21, 16, "MoonDirt"],
+			[22, 16, "MoonDirt"],
+			[23, 16, "MoonDirt"],
+			[24, 16, "MoonDirt"],
+			[25, 16, "MoonDirt"],
+			[26, 16, "MoonDirt"],
+			[27, 16, "MoonDirt"],
+			[28, 16, "MoonDirt"],
+			[29, 16, "MoonDirt"],
+
+			[12, 8, "MoonGrass"],
+			[13, 8, "MoonGrass"],
+			[2, 2, "MoonGrass"],
+			[2, 5, "MoonGrass"],
+			[23, 2, "MoonGrass"]
+
+		],
+
+		"foreground": [
+		]
+	},
+
+	"items": [
+		[2, 1, "Gem"],
+		[12, 7, "Gem"],
+		[23, 1, "Gem"]
+	],
+
+	"enemies": [
+	]
+}

@@ -1,0 +1,119 @@
+{
+	"layout": {
+		"scale": 64,
+		"size": [32, 17],
+		"start": [0, 10],
+		"goal": [31, 10, 1, 4]
+	},
+
+	"physics": {
+		"gravity": 2,
+		"terminal_velocity": 200
+	},
+
+	"music": "assets/sounds/background_music.ogg",
+
+	"background": {
+		"color": [0, 0, 0],
+		"image1": "assets/images/backgrounds/Sky.png",
+		"image2": "assets/images/backgrounds/backgrounds.png",
+		"parallax_speed1": 0.6,
+		"parallax_speed2": 0.3
+	},
+
+	"tiles": {
+		"main": [
+			[0, 11, "Grass"],
+			[1, 12, "Grass"],
+			[2, 13, "Grass"],
+			[3, 14, "Grass"],
+			[4, 15, "Grass"],
+			[0, 12, "Dirt"],
+			[0, 13, "Dirt"],
+			[0, 14, "Dirt"],
+			[0, 15, "Dirt"],
+			[0, 16, "Dirt"],
+			[1, 13, "Dirt"],
+			[1, 14, "Dirt"],
+			[1, 15, "Dirt"],
+			[1, 16, "Dirt"],
+			[2, 14, "Dirt"],
+			[2, 15, "Dirt"],
+			[2, 16, "Dirt"],
+			[3, 15, "Dirt"],
+			[3, 16, "Dirt"],
+			[4, 16, "Dirt"],
+			[5, 16, "Dirt"],
+			[6, 16, "Dirt"],
+			[7, 16, "Dirt"],
+			[8, 16, "Dirt"],
+			[9, 16, "Dirt"],
+			[10, 16, "Dirt"],
+			[11, 16, "Dirt"],
+			[12, 16, "Dirt"],
+			[13, 16, "Dirt"],
+			[14, 16, "Dirt"],
+			[15, 16, "Dirt"],
+			[16, 16, "Dirt"],
+			[17, 16, "Dirt"],
+			[18, 16, "Dirt"],
+			[19, 16, "Dirt"],
+			[20, 16, "Dirt"],
+			[21, 16, "Dirt"],
+			[22, 16, "Dirt"],
+			[23, 16, "Dirt"],
+			[24, 16, "Dirt"],
+			[25, 16, "Dirt"],
+			[26, 16, "Dirt"],
+			[27, 16, "Dirt"],
+			[28, 16, "Dirt"],
+			[29, 16, "Dirt"],
+			[5, 15, "Grass"],
+			[6, 15, "Grass"],
+			[7, 15, "Grass"],
+			[8, 15, "Grass"],
+			[9, 15, "Grass"],
+			[10, 15, "Grass"],
+			[11, 15, "Grass"],
+			[12, 15, "Grass"],
+			[13, 15, "Grass"],
+			[14, 15, "Grass"],
+			[15, 15, "Grass"],
+			[16, 15, "Grass"],
+			[17, 15, "Grass"],
+			[18, 15, "Grass"],
+			[19, 15, "Grass"],
+			[20, 15, "Grass"],
+			[21, 15, "Grass"],
+			[22, 15, "Grass"],
+			[23, 15, "Grass"],
+			[24, 15, "Grass"],
+			[25, 15, "Grass"],
+			[26, 14, "Grass"],
+			[27, 14, "Grass"],
+			[28, 14, "Grass"],
+			[29, 14, "Grass"],
+			[26, 15, "Dirt"],
+			[27, 15, "Dirt"],
+			[28, 15, "Dirt"],
+			[29, 15, "Dirt"],
+			[30, 14, "Grass"],
+			[31, 14, "Grass"],
+
+			[27, 12, "Platform"],
+			[25, 10, "Platform"]
+		],
+
+		"foreground": [
+		]
+	},
+
+	"items": [
+		[27, 11, "Gem"]
+	],
+
+	"enemies": [
+		[4, 14, "FastEnemy"],
+		[25, 14, "FastEnemy"]
+	]
+}
