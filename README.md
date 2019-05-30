@@ -8,17 +8,45 @@ In order to play the game...
 
 ### Controls
 Move left - A
+
 Move right - D
+
 Jump - Space
+
 Sprint - LShift
+
+Close Game - Escape
 
 ### Items
 Coins - If picked up, player score increases by 10.
 
 
-Hearts - If picked up, player score increases by 5 and player health increases by 1.
+Hearts - If picked up, player score increases by 5 and player health increases by 1. The maximum amount of hearts you can have is 5.
 
 
 Slows - If picked up, player speed is decreased to 5.
+
+### Mobs
+Basic Mob - If player collides with mob, health is decreased by 1. Mob speed is set to 9.
+
+
+Fast Mob - If player collides with mob, health is decreased by 1. Mob speed is set to 30.
+
+## Screenshots
+Start Screen:
+
+
+In Game:
+
+
+
+## Credits
+Sounds:
+
+All music and sound effects can be found and are free to download at https://freesound.org/ 
+  
+Images:
+
+All images used in this game can be found on https://opengameart.org/
 
 
