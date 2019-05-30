@@ -46,10 +46,10 @@ BLACK = (0, 0, 0)
 WHITE = (255, 255, 255)
 
 # Fonts
-font_xs = load_font(None, 16)
-font_sm = load_font(None, 32)
-font_md = load_font(None, 48)
-font_lg = load_font(None, 64)
+font_xs = load_font("assets/fonts/Cheri.ttf", 16)
+font_sm = load_font("assets/fonts/Cheri.ttf", 32)
+font_md = load_font("assets/fonts/Cheri.ttf", 48)
+font_lg = load_font("assets/fonts/Cheri.ttf", 64)
 font_xl = load_font("assets/fonts/Cheri.ttf", 80)
 
 # Sounds
@@ -77,15 +77,11 @@ tile_images = { "Grass": load_image('assets/images/tiles/grassMid.png'),
                 "Dirt": load_image('assets/images/tiles/grassCenter.png'),
                 "Platform": load_image('assets/images/tiles/grass.png'),
                 "Plant": load_image('assets/images/tiles/platformPack_tile045.png'),
-                "FlagTop": load_image('assets/images/tiles/medievalTile_166.png'),
-                "Castle": load_image('assets/images/tiles/platformPack_tile040.png'),
-                "DoorOpen": load_image('assets/images/tiles/platformPack_tile048.png'),
                 "MoonDirt": load_image('assets/images/tiles/platformPack_tile016.png'),
-                "MoonGrass": load_image('assets/images/tiles/platformPack_tile013.png'),
-                "FlagPole": load_image('assets/images/tiles/medievalTile_190.png') }
+                "MoonGrass": load_image('assets/images/tiles/platformPack_tile013.png') }
 
-platform_enemy_images = [ load_image('assets/images/characters/platformPack_tile011a.png'),
-                          load_image('assets/images/characters/platformPack_tile011b.png') ]
+platform_enemy_images = [ load_image('assets/images/characters/flyFly2.png'),
+                          load_image('assets/images/characters/flyFly1.png') ]
 
 fastwalk = [load_image('assets/images/characters/flyFly1.png'),
             load_image('assets/images/characters/flyFly2.png') ]
